@@ -1,0 +1,180 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:Ã¢â‚¬â„¢Ã¢â‚¬â„¢;content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+/* misc */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+.right{float:right;}
+.none{float:none;}
+.left{float:left;}
+
+::selection{
+    background: rgba(0,0,0,0.01);
+}
+
+/* type */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    font-weight: 100;
+    margin: 0 auto;
+    width: 100%
+    position: absolute;
+}
+section {
+    text-align: center;
+}
+h1{
+    font: 1.1em/1.2em 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.3);
+    font-weight: 700;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+h2,h3, h4, h5, h6{
+    font: 1.2em/1.2em 'Roboto', sans-serif;
+    padding: 10px 0;
+}
+
+h6{
+    padding-bottom: 40px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+a:hover{
+    opacity: .5;
+}
+
+section{
+    width: 44.5%;
+    padding-left: 27.75%;
+    padding-top: 2.5%
+}
+
+section p{
+    font: 1em/1.3em 'Roboto', sans-serif;
+    padding-bottom: 8px;
+}
+
+/* trendy shit */
+
+
+h1{
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp .3s;
+    -moz-animation: fadeInUp .3s;
+    -o-animation: fadeInUp .3s;
+    animation: fadeInUp .3s;
+}
+
+.avatar {
+  background: url("me.png") center center no-repeat;
+  background-size: 100%;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -o-border-radius: 150px;
+  border-radius: 150px;
+  opacity: .5;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+}
+
+h3{
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp .5s;
+    -moz-animation: fadeInUp .5s;
+    -o-animation: fadeInUp .5s;
+    animation: fadeInUp .5s;
+}
+
+h4{
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp .9s;
+    -moz-animation: fadeInUp .9s;
+    -o-animation: fadeInUp .9s;
+    animation: fadeInUp .9s;
+}
+
+h5{
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp 1.3s;
+    -moz-animation: fadeInUp 1.3s;
+    -o-animation: fadeInUp 1.3s;
+    animation: fadeInUp 1.3s;
+}
+
+h6{
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp 1.7s;
+    -moz-animation: fadeInUp 1.7s;
+    -o-animation: fadeInUp 1.7s;
+    animation: fadeInUp 1.7s;
+}
+
+p.firstp{
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp 2.1s;
+    -moz-animation: fadeInUp 2.1s;
+    -o-animation: fadeInUp 2.1s;
+    animation: fadeInUp 2.1s;
+}
+
+p.secondp{
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 0.6s;
+
+    -webkit-animation: fadeInUp 2.5s;
+    -moz-animation: fadeInUp 2.5s;
+    -o-animation: fadeInUp 2.5s;
+    animation: fadeInUp 2.5s;
+}
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    section{
+        width: 80%;
+        padding: 10% ;
+    }
+}
